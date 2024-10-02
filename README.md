@@ -2,10 +2,12 @@ Project: Sales Performence Report 2009 - 2012
 
 Mục tiêu chính: Luyện tập khả năng sử dụng SQLite và PowerBI dựa trên các task có sẵn và thêm mới.
 
-Mục tiêu cụ thể
+Mục tiêu cụ thể: 
+  1. Task SQL: luyện tập sử dụng các câu lệnh để truy xuất dữ liệu trên bộ data, một số task đơn giản và nâng cao
+  2. Task PowerBI: làm quen với ứng dụng trực quan hóa dữ liệu PowerBI, kết hợp sử dụng DAX (Data Analysis Expressions) để thực hiện tính toán và phân tích dữ liệu trên bộ data Excel có sẵn (.csv) 
 
-Chuẩn bị bộ data: Data đang là file đuôi Excel (.csv) chuyển đổi thành file (.db) để có thể truy xuất dữ liệu trong SQLite
-Task SQL:
+Chuẩn bị bộ data: Data đang là file đuôi Excel (.csv) chuyển đổi thành file (.db) để có thể truy xuất dữ liệu trong SQLite thông qua thư viện trên Python (sqlite3)
+Task SQL: Tham khảo ở: https://medium.com/analytics-vidhya/project-data-analysis-for-retail-sales-performance-report-f974f9b0c315
   1. Xuất ra 10 cột của bộ data bao gồm: order_id/order_status/customer/order_date/order_quantity/sales/discount/discount_value/product_category/product_sub_category
   2. Xuất ra các thông tin của từng cột và filter chúng theo một số thông tin cơ bản.
   3. Xuất ra doanh thu của 4 năm 2009 - 2012 và tổng số lần đặt hàng trong 4 năm đó.
