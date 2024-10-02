@@ -7,8 +7,10 @@ Mục tiêu cụ thể:
   2. Task PowerBI: làm quen với ứng dụng trực quan hóa dữ liệu PowerBI, kết hợp sử dụng DAX (Data Analysis Expressions) để thực hiện tính toán và phân tích dữ liệu trên bộ data Excel có sẵn (.csv) 
 
 Chuẩn bị bộ data: Data đang là file đuôi Excel (.csv) chuyển đổi thành file (.db) để có thể truy xuất dữ liệu trong SQLite thông qua thư viện trên Python (sqlite3)
-Bộ data: https://www.kaggle.com/datasets/dhawyfarrasputra/sales-performance-report-dqlab-store
+
 Bộ data của tác giả gồm 5499 dòng và 1 cột (chưa xử lý - raw_data.csv) và bộ dữ liệu 5499 dòng và 10 cột (đã xử lý - clean_data.csv)
+
+Bộ data: https://www.kaggle.com/datasets/dhawyfarrasputra/sales-performance-report-dqlab-store
 
 Task SQL: Tham khảo ở: https://medium.com/analytics-vidhya/project-data-analysis-for-retail-sales-performance-report-f974f9b0c315
   1. Xuất ra 10 cột của bộ data bao gồm: order_id/order_status/customer/order_date/order_quantity/sales/discount/discount_value/product_category/product_sub_category
