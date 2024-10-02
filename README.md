@@ -26,7 +26,12 @@ Bonus: Task PowerBI: Sử dụng các task của SQL có thể làm để trực
      3.2. Các biểu đồ cột: Sử dụng biểu đồ cột để trực quan hóa theo danh mục sản phẩm chính theo số lần đặt hàng và số lượng đơn hàng trên mỗi lần đặt hàng và đặt hàng có thành công hay không. Có thể sử dụng Legend để filter các thẻ.
      3.3. Biểu đồ bánh donut: Sử dụng biểu đồ bánh donut để trực quan hóa tổng số lượng đơn hàng theo danh mục sản phẩm chính. Có thể sử dụng Legend để filter các thẻ.
   4. Trực quan trang Customer:
-     4.1 Các thẻ: Sử dụng measure để thay vì hiện (Blank) sẽ hiện 0 ở một số trường hợp, tính tổng số khách hàng, số khách hàng đặt hàng thành công/thất bại. Tính toán doanh thu dựa trên số khách hàng đặt hàng thành công.
-     4.2 Các slicer: Sử dụng slicer để có thể filter cả trang customer theo danh mục sản phẩm chính và số năm theo ý muốn.
-  5. Trực quan trang Sub-product
-        
+     4.1. Các thẻ: Sử dụng measure để thay vì hiện (Blank) sẽ hiện 0 ở một số trường hợp, tính tổng số khách hàng, số khách hàng đặt hàng thành công/thất bại. Tính toán doanh thu dựa trên số khách hàng đặt hàng thành công.
+     4.2. Các slicer: Sử dụng slicer để có thể filter cả trang customer theo danh mục sản phẩm chính và tháng/năm theo ý muốn.
+  5. Trực quan trang Sub-product:
+     5.1. Các thẻ: Sử dụng các thẻ từ cột Sales, Order, Discount để trực quan lại dữ liệu theo Sub-product
+     5.2. Biểu đồ bánh donut: Sử dụng biểu đồ bánh donut để trực quan hóa tổng doanh thu với những khách hàng đặt hàng thành công
+     5.3. Các slicer: Sử dụng Slicer kết hợp với Legend của biểu đồ để xem được tổng doanh thu, discount và số lượng đặt hàng của danh mục sản phẩm phụ.
+  6. Trực quan trang Summary:
+     6.1. Tổng quát hóa lại những đặc biệt trong 5 trang trực quan dữ liệu trên PowerBI. Dùng điều hướng trang (Page Navigation) để đưa đến từng trang trực quan theo mục.
+  7. Trang trí cho báo cáo bằng một số nút (button) để điều hướng các trang qua lại với nhau. 
