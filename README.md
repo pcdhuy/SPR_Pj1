@@ -28,7 +28,7 @@ Bộ data: https://www.kaggle.com/datasets/dhawyfarrasputra/sales-performance-re
   8. Xuất ra tổng số khách hàng giao dịch thành công qua 4 năm.
   9. Xuất ra số khách hàng mới giao dịch trong 4 năm.
 
-## Bonus: Task PowerBI: Sử dụng các task của SQL có thể làm để trực quan hóa dữ liệu trong PowerBI
+### Bonus: Task PowerBI: Sử dụng các task của SQL có thể làm để trực quan hóa dữ liệu trong PowerBI
   1. Trực quan trang Sales:
      
      1.1. Các thẻ (card):Sử dụng cột Sales để tính tổng doanh thu, doanh thu đã được trừ bởi Discount và doanh thu đã bị hoàn trả mặt hàng để xuất ra doanh thu ròng.
