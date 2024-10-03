@@ -58,3 +58,20 @@ Bonus: Task PowerBI: Sử dụng các task của SQL có thể làm để trực
      6.1. Tổng quát hóa lại những đặc biệt trong 5 trang trực quan dữ liệu trên PowerBI. Dùng điều hướng trang (Page Navigation) để đưa đến từng trang trực quan theo mục.
      
   7. Trang trí cho báo cáo bằng một số nút (button) để điều hướng các trang qua lại với nhau. 
+
+![image](https://github.com/user-attachments/assets/660bb73b-2f54-4e0b-941b-3c4d08b4390b)
+
+![image](https://github.com/user-attachments/assets/edd79c22-6c58-4c12-838d-503a69cb8a2f)
+
+![image](https://github.com/user-attachments/assets/9915f40a-aa30-4905-9581-3aea16e89fe9)
+
+![image](https://github.com/user-attachments/assets/4154238e-62e3-4581-aada-ae70da2eeb8f)
+
+![image](https://github.com/user-attachments/assets/a8b82f9f-8a05-42c8-be29-65027dab4c61)
+
+![image](https://github.com/user-attachments/assets/d90189fa-885f-473d-90ba-ff594ec9f102)
+
+
+
+
+
