@@ -1,18 +1,23 @@
-Project: Sales Performence Report 2009 - 2012
-
+# Project: Sales Performence Report 2009 - 2012
+## Mục tiêu 
 Mục tiêu chính: Luyện tập khả năng sử dụng SQLite và PowerBI dựa trên các task có sẵn và thêm mới.
 
 Mục tiêu cụ thể: 
   1. Task SQL: luyện tập sử dụng các câu lệnh để truy xuất dữ liệu trên bộ data, một số task đơn giản và nâng cao
   2. Task PowerBI: làm quen với ứng dụng trực quan hóa dữ liệu PowerBI, kết hợp sử dụng DAX (Data Analysis Expressions) để thực hiện tính toán và phân tích dữ liệu trên bộ data Excel có sẵn (.csv) 
 
+## Chuẩn bị
 Chuẩn bị bộ data: Data đang là file đuôi Excel (.csv) chuyển đổi thành file (.db) để có thể truy xuất dữ liệu trong SQLite thông qua thư viện trên Python (sqlite3)
 
 Bộ data của tác giả gồm 5499 dòng và 1 cột (chưa xử lý - raw_data.csv) và bộ dữ liệu 5499 dòng và 10 cột (đã xử lý - clean_data.csv)
 
 Bộ data: https://www.kaggle.com/datasets/dhawyfarrasputra/sales-performance-report-dqlab-store
 
-Task SQL: Tham khảo ở: https://medium.com/analytics-vidhya/project-data-analysis-for-retail-sales-performance-report-f974f9b0c315
+## Nội dung 
+
+### Task SQL: luyện tập sử dụng các câu lệnh để truy xuất dữ liệu trên bộ data, một số task đơn giản và nâng cao.
+
+(Tham khảo ở: https://medium.com/analytics-vidhya/project-data-analysis-for-retail-sales-performance-report-f974f9b0c315)
   1. Xuất ra 10 cột của bộ data bao gồm: order_id/order_status/customer/order_date/order_quantity/sales/discount/discount_value/product_category/product_sub_category
   2. Xuất ra các thông tin của từng cột và filter chúng theo một số thông tin cơ bản.
   3. Xuất ra doanh thu của 4 năm 2009 - 2012 và tổng số lần đặt hàng trong 4 năm đó.
@@ -23,7 +28,7 @@ Task SQL: Tham khảo ở: https://medium.com/analytics-vidhya/project-data-anal
   8. Xuất ra tổng số khách hàng giao dịch thành công qua 4 năm.
   9. Xuất ra số khách hàng mới giao dịch trong 4 năm.
 
-Bonus: Task PowerBI: Sử dụng các task của SQL có thể làm để trực quan hóa dữ liệu trong PowerBI
+## Bonus: Task PowerBI: Sử dụng các task của SQL có thể làm để trực quan hóa dữ liệu trong PowerBI
   1. Trực quan trang Sales:
      
      1.1. Các thẻ (card):Sử dụng cột Sales để tính tổng doanh thu, doanh thu đã được trừ bởi Discount và doanh thu đã bị hoàn trả mặt hàng để xuất ra doanh thu ròng.
@@ -57,19 +62,22 @@ Bonus: Task PowerBI: Sử dụng các task của SQL có thể làm để trực
      
      6.1. Tổng quát hóa lại những đặc biệt trong 5 trang trực quan dữ liệu trên PowerBI. Dùng điều hướng trang (Page Navigation) để đưa đến từng trang trực quan theo mục.
      
-  7. Trang trí cho báo cáo bằng một số nút (button) để điều hướng các trang qua lại với nhau. 
+  7. Trang trí cho báo cáo bằng một số nút (button) để điều hướng các trang qua lại với nhau.
 
+# **SẢN PHẨM**
+### Trang Summary
 ![image](https://github.com/user-attachments/assets/660bb73b-2f54-4e0b-941b-3c4d08b4390b)
-
+### Trang Sales
 ![image](https://github.com/user-attachments/assets/edd79c22-6c58-4c12-838d-503a69cb8a2f)
-
+### Trang Sales của Sub-product
 ![image](https://github.com/user-attachments/assets/9915f40a-aa30-4905-9581-3aea16e89fe9)
-
+### Trang Discount
 ![image](https://github.com/user-attachments/assets/4154238e-62e3-4581-aada-ae70da2eeb8f)
-
+### Trang Orders
 ![image](https://github.com/user-attachments/assets/a8b82f9f-8a05-42c8-be29-65027dab4c61)
+### Trang Customer
+![image](https://github.com/user-attachments/assets/ee9b155f-b066-4a2d-81ac-e8e6a20e2ada)
 
-![image](https://github.com/user-attachments/assets/d90189fa-885f-473d-90ba-ff594ec9f102)
 
 
 
